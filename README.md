@@ -32,7 +32,7 @@ Explain flow:
 
 Raw Data → Data Cleaning Agent → Processed Data → Ready for Analysis
 
-You can also add:
+ can also add:
 
 Modules:
 - Input Module
@@ -43,3 +43,14 @@ Modules:
 - Language: Python / C++
 - Libraries: Pandas, NumPy, Scikit-learn
 - Tools: Jupyter Notebook / VS Code
+
+- 7. Project Structure
+data-cleaning-agent/
+│── data/
+│── src/
+│   ├── cleaner.py
+│   ├── utils.py
+│── output/
+│── main.py
+│── requirements.txt
+│── README.md
